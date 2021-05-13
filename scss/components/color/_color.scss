@@ -1,0 +1,32 @@
+// 関数定義
+$orange: #ebba4d; // オレンジ
+$clearorange: #f8c13b;
+$madorange: #fef5e0; // 薄いオレンジ
+$blue: #076ea9; // 青
+$red: #da6b64; // 朱色
+$gray: #777777; // グレー
+$lightgray: #e5e5e5; // ライトグレー
+
+
+// background-color
+.bg-test {background-color: gray;}   // test
+.bg-orange {background-color: $orange;}
+.bg-clearorange {background-color: $clearorange;}
+.bg-madorange {background-color: $madorange;}
+.bg-blue {background-color: $blue;}
+.bg-red {background-color: $red;}
+.bg-test {background-color: $gray;}
+
+// border
+.border-orange {border: 1px solid $orange;}
+.border-madorange {border: 1px solid $madorange;}
+.border-blue {border: 1px solid $blue;}
+.border-red {border: 1px solid $red;}
+.border-lightgray {border: 1px solid $lightgray;}
+
+// color
+.text-orange {color: $orange;}
+.text-madorange {color: $madorange;}
+.text-blue {color: $blue;}
+.text-red {color: $red;}
+.text-gray {color: $gray;}

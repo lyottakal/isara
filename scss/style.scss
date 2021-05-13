@@ -1,0 +1,393 @@
+// import file  ->  property discriprion
+// border
+@import "components/border/radius";    // radius
+@import "components/border/radiusLL";  // radius-LowerLeft
+@import "components/border/radiusLR";  // radius-LowerRight
+@import "components/border/radiusUL";  // radius-UpperLeft
+@import "components/border/radiusUR";  // radius-UpperRight
+// box-size
+@import "components/box-size/wid";   // width
+@import "components/box-size/widper";   // width-percent
+@import "components/box-size/hei";   // height
+// color
+@import "components/color/color";  //color
+
+// font-style
+@import "components/font-style/fsem";   // font-size(em)
+@import "components/font-style/fspx";   // font-size(px)
+@import "components/font-style/fsrem";   // font-size(rem)
+@import "components/font-style/lhpx";   // line-height
+@import "components/font-style/lsem";   // letter-spacing
+// margin
+@import "components/margin/negative-margin/nm";   // negative-margin
+@import "components/margin/negative-margin/nmb";   // negative-margin-bottom
+@import "components/margin/negative-margin/nml";   // negative-margin-left
+@import "components/margin/negative-margin/nmr";   // negative-margin-right
+@import "components/margin/negative-margin/nmt";   // negative-margin-top
+@import "components/margin/positive-margin/pm";   // positive-margin
+@import "components/margin/positive-margin/pmb";   // positive-margin-bottom
+@import "components/margin/positive-margin/pml";   // positive-margin-left
+@import "components/margin/positive-margin/pmr";   // positive-margin-right
+@import "components/margin/positive-margin/pmt";   // positive-margin-top
+// padding
+@import "components/padding/negative-padding/np";   // negative-padding
+@import "components/padding/negative-padding/npb";   // negative-padding-bottom
+@import "components/padding/negative-padding/npl";   // negative-padding-left
+@import "components/padding/negative-padding/npr";   // negative-padding-right
+@import "components/padding/negative-padding/npt";   // negative-padding-top
+@import "components/padding/positive-padding/pp";   // positive-padding
+@import "components/padding/positive-padding/ppb";   // positive-padding-bottom
+@import "components/padding/positive-padding/ppl";   // positive-padding-left
+@import "components/padding/positive-padding/ppr";   // positive-padding-right
+@import "components/padding/positive-padding/ppt";   // positive-padding-top
+// position
+@import "components/position/psb";   // positive-bottom
+@import "components/position/psl";   // positive-left
+@import "components/position/psr";   // positive-right
+@import "components/position/pst";   // positive-top
+// transform
+@import "components/transform/rotate";  //  rotate
+
+body {
+  // font指定
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  // z-index
+  .z-1 {z-index: 1;}
+}
+
+// main css
+main {
+  // トップ（ISARA）
+  .isara {
+    background-image: url(../img/mainsp.jpeg);
+    background-size: cover;
+    background-position: right 50% bottom 49.4%;
+  }
+  .intro {
+    background-image: url(../img/introbottom.jpeg);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+    
+  // ステップ
+  .step {
+    .bg-step-first {
+      background-image: url(../img/aboutsecondbgsp.jpeg);
+      background-size: cover;
+      background-position: center;
+    }  
+  }
+
+  // メリット
+  .merit {
+    .first {
+      .bg-first {
+        background-image: url(../img/learnfromfreelancer.jpeg);
+        background-size: cover;
+        background-position: center;
+      }
+    }
+    .second {
+      .bg-second {
+        background-image: url(../img/learnfromprojects.jpeg);
+        background-size: cover;
+        background-position: center;
+      }
+    }
+    .third {
+      .bg-third {
+        background-image: url(../img/actuallyfree.jpeg);
+        background-size: cover;
+        background-position: center;
+      }
+    }
+    
+  }
+
+  // メンバー
+  .member {
+    .bg-member {
+      background-image: url(../img/teacherbgsp.jpeg);
+      background-position: bottom;
+      background-size: cover;
+    }
+  }
+
+  // 回答
+  .answer {
+    .triangle{
+      width: 15px;
+      border-top: 15px solid #ebba4d;
+      border-right: 15px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 15px solid transparent;
+    }
+    // .take {
+    //   background-image: url(../img/take.jpg);
+    //   background-size: cover;
+    // }
+    // .sato {
+    //   background-image: url(../img/minami_sato.jpg);
+    //   background-size: cover;
+    // }
+    // .asada {
+    //   background-image: url(../img/asada.jpg);
+    //   background-size: cover;
+    // }
+  }
+
+  // 学べる内容
+  .contents {
+    .bg-contents {
+      background-image: url(../img/classbgsp.jpeg);
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  // なぜバンコクなのか？
+  .reason {
+    .bg-reason {
+      background-image: url(../img/bangkokbgsp.jpeg);
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  // iSaraはボランティアではありません
+  .volunteer {
+    .bg-volunteer {
+      background-image: url(../img/specialdetailsp.jpeg);
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  .form {
+    .heiIMP-100 {
+      height: 100px !important;
+    }
+  }
+
+  // よくある質問
+  // .faq {
+
+  // }
+}
+
+footer {
+  .bg-footer {
+    background-color: #ececec;
+  }
+  .fs-footer {
+    font-size: 0.3rem;
+  }
+}
+
+
+
+  // header css
+  // header {
+    // box-size
+    // .box-form {
+    //   width: 94px;
+    // }
+    // image-size
+    // .img-isaralogo {
+    //   width: 90px;
+    //   height: auto;
+    // }
+    // .img-form {
+    //   width: 20px;
+    //   height: auto;
+    // }
+    // margin
+    // .m-bankoku {
+    //   margin: 9px 0px 0px -2px;
+    // }
+    // .m-isara {
+    //   margin: 1px 0px 0px -2px;
+    // }
+  // }
+
+  // figure-size
+  // .bs-isara {
+  //   width: 317px;
+  //   height: auto;
+  // }
+  // お問い合わせ＆資料請求
+  // .contact {
+    // span-size
+    // .bs-price {
+    //   width: 360px;
+    //   height: 20px;
+    // }
+    // .bs-contact {
+    //   width: 386px;
+    //   height: 94px;
+    // }    
+    // padding
+    // .p-sns {
+    //   padding: 3px 0px 0px 5px;
+    // }
+    // .p-share {
+    //   padding: 0px 0px 0px 5px;
+    // }
+  // }
+
+  // エンジニアとして
+  // box-size
+  // .bs-title {
+  //   width: 100%;
+  //   height: 150px;
+  // }
+  // .bs-braket {
+  //   width: 30px;
+  //   height: 30px;
+  // }
+  // ノマドエンジニア養成講座
+  // .seminar {
+    // box-size
+    // .bs-about {
+    //   width: 60px;
+    //   height: 60px;
+    // }
+    // .bs-title {
+    //   width: 385px;
+    //   height: 150px;
+    // }
+    // .bs-braket {
+    //   width: 30px;
+    //   height: 30px;
+    // }
+    // .bs-skill {
+    //   width: 385px;
+    //   height: 266px;
+    // }
+    // .bs-img {
+    //   width: 32px;
+    //   height: auto;
+    // }
+  // }
+  
+  // step-first
+  // .step-first {
+  //   .box-step {
+  //     width: 365px;
+  //     height: 106px;
+  //   }
+  //   step-menu
+  //   .step-menu {
+  //     .badge-size {
+  //       width: 265px;
+  //       height: 20px;
+  //     }
+  //   }
+  // }
+  // iSara[イサラ]で学べること
+  // .learn {
+    
+    // .earn {
+    //   .bs-img{
+    //     width: 68px;
+    //     height: auto;
+    //   }
+    // }
+  // }
+
+  
+  // .bg-size {
+    //   width: 98.5%;
+    //   height: 100px;
+    // }
+  
+  // .img-size {
+  //   width: 120px;
+  //   height: auto;
+  // }
+  // .teacher-first {
+  //   .bs-info-first {
+  //     width: auto;
+  //     height: 220px;
+  //   }
+  // }
+  // .teacher-second {
+  //   .bs-info-second {
+  //     width: auto;
+  //     height: 220px;
+  //   }
+  // }
+  // .teacher-third {
+  //   .bs-info-third {
+  //     width: auto;
+  //     height: 237px;
+  //   }
+  // }
+
+  // .question {
+    
+  //   .box-qa {
+  //     width: 50px;
+  //     height: 50px;
+  //   }
+  //   .fs-qa {
+  //     font-size: 0.8rem;
+  //   }
+  // }
+
+
+  
+  // .bs-img {
+  //   width: 100%;
+  //   height: auto;
+  // } 
+
+  // .flow {
+  //   .bs-consul {
+  //     width: 30px;
+  //     height: auto;
+  //   }
+  //   .bs-preworks {
+  //     width: 30px;
+  //     height: auto;
+  //   }
+  //   .bs-flight {
+  //     width: 30px;
+  //     height: auto;
+  //   }
+  //   .bs-person {
+  //     width: 30px;
+  //     height: auto;
+  //   }
+  //   .bs-job {
+  //     width: 30px;
+  //     height: auto;
+  //   }
+  // }
+  // .box-benefits {
+  //   width: 50px;
+  //   height: 50px;
+  // }
+  // .box-benefits-contents {
+  //   width: 200px;
+  //   height: 100px;
+  // }
+  // .fs-benefits-contents {
+  //   font-size: 0.5rem;
+  // }
+
+
+
+
+  // .message {
+    
+  // }
+
+  // .form {
+  //   .box-submit {
+  //     width: 100%;
+  //     height: 40px;
+  //   }
+  // }
+
